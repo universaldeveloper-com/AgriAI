@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum - AgriAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header"><nav class="navbar"><div class="logo"><a href="index.html">AgriAI</a></div><ul class="nav-links"><li><a href="knowledge-hub.html">Knowledge Hub</a></li><li><a href="weather.html">Weather</a></li><li><a href="prices.html">Crop Prices</a></li><li><a href="schemes.html">Schemes</a></li><li><a href="community.html">Community</a></li></ul></nav></header>
+
+    <main class="page-container">
+        <div class="page-header">
+            <h1>Community Forum</h1>
+            <p>Connect with other farmers. Click on a post to read the discussion.</p>
+        </div>
+        <div class="forum-container">
+            <button class="new-discussion-btn">Start a New Discussion</button>
+            <div class="discussion-list">
+                <div class="discussion-item"><h4>How to control stem borer in maize?</h4><p class="post-meta">Posted by Priya S. | 8 Replies</p></div>
+                <div class="discussion-item"><h4>Best fertilizer for sugarcane?</h4><p class="post-meta">Posted by Anand P. | 5 Replies</p></div>
+                <div class="discussion-item"><h4>Organic pest control methods for vegetables</h4><p class="post-meta">Posted by Sunita G. | 12 Replies</p></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for viewing discussions -->
+    <div id="community-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3 class="modal-title">How to control stem borer in maize?</h3>
+            <p class="post-meta">Posted by Priya S.</p>
+            <div class="comments-section">
+                <div class="comment">
+                    <p><strong>Ramesh K.:</strong> Try using pheromone traps. They are very effective for monitoring and mass trapping the moths.</p>
+                    <div class="comment-actions"><button class="like-button">❤️ <span>15</span></button></div>
+                </div>
+                <div class="comment">
+                    <p><strong>Priya S.:</strong> Thanks, Ramesh! I will give that a try. Are there any organic sprays you recommend?</p>
+                    <div class="comment-actions"><button class="like-button">❤️ <span>8</span></button></div>
+                </div>
+                 <div class="comment">
+                    <p><strong>Sunita G.:</strong> Neem oil spray works well as a repellent if you apply it early in the season.</p>
+                    <div class="comment-actions"><button class="like-button">❤️ <span>22</span></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="main-footer"><p class="copyright">&copy; 2025 AgriAI. All Rights Reserved.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
