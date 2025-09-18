@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriAI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ai-page-body">
+
+    <div class="ai-container">
+        <!-- Sidebar -->
+        <aside class="ai-sidebar">
+            <div class="sidebar-header">
+                 <div class="logo"><a href="index.html">AgriAI</a></div>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item new-chat-btn">+ New Chat</a>
+                <p class="nav-title">Previous Chats</p>
+                <a href="#" class="nav-item active">Organic pest control</a>
+                <a href="#" class="nav-item">Tomato early blight</a>
+                <a href="#" class="nav-item">Crop rotation plans</a>
+            </nav>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="ai-main">
+            <header class="ai-header">
+                <h2>AI Assistant</h2>
+            </header>
+
+            <div class="ai-chat-window">
+                <!-- This will be shown when the chat is empty -->
+                <div class="empty-chat-view">
+                    <div class="logo-large">🤖</div>
+                    <h1>How can I help you today?</h1>
+                    <div class="suggested-questions">
+                        <div class="question-card" data-key="compare-fertilizers">
+                            <h4>Compare Fertilizers</h4>
+                            <p>for rice in clay soil</p>
+                        </div>
+                        <div class="question-card" data-key="identify-disease">
+                            <h4>Identify Disease</h4>
+                            <p>from a picture of a tomato leaf</p>
+                        </div>
+                         <div class="question-card" data-key="crop-rotation">
+                            <h4>Create a Plan</h4>
+                            <p>for crop rotation for my farm</p>
+                        </div>
+                         <div class="question-card" data-key="pm-kisan">
+                            <h4>What is PM-KISAN?</h4>
+                            <p>and how do I apply for it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ai-input-area">
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Ask about crops, pests, fertilizers, or schemes...">
+                    <button class="icon-button" title="Attach file">📎</button>
+                    <button class="icon-button" title="Use voice">🎤</button>
+                </div>
+                <button class="ai-send-button" title="Send">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" /></svg>
+                </button>
+            </div>
+             <p class="ai-disclaimer">AgriAI is a demo and may produce inaccurate information.</p>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
