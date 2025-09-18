@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Weather Forecast - AgriAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header"><nav class="navbar"><div class="logo"><a href="index.html">AgriAI</a></div><ul class="nav-links"><li><a href="knowledge-hub.html">Knowledge Hub</a></li><li><a href="weather.html">Weather</a></li><li><a href="prices.html">Crop Prices</a></li><li><a href="schemes.html">Schemes</a></li><li><a href="community.html">Community</a></li></ul></nav></header>
+    <main class="page-container">
+        <div class="page-header">
+            <h1>Weather & Forecast</h1>
+            <p>Detailed weather analysis for major agricultural regions.</p>
+        </div>
+
+        <div class="location-tabs">
+            <button class="tab-link active">New Delhi</button>
+            <button class="tab-link">Mumbai</button>
+            <button class="tab-link">Bengaluru</button>
+            <button class="tab-link">Lucknow</button>
+        </div>
+
+        <div class="current-weather-display">
+            <div class="weather-main">
+                <div class="main-temp">28°C</div>
+                <div class="main-condition">Mostly Sunny</div>
+            </div>
+            <div class="weather-details-grid">
+                <div><span>Humidity</span><strong id="humidity-val">65%</strong></div>
+                <div><span>Wind</span><strong id="wind-val">10 km/h</strong></div>
+                <div><span>Precipitation</span><strong id="precip-val">5%</strong></div>
+                <div><span>UV Index</span><strong id="uv-val">High</strong></div>
+                <div><span>Sunrise</span><strong id="sunrise-val">5:45 AM</strong></div>
+                <div><span>Sunset</span><strong id="sunset-val">7:15 PM</strong></div>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer"><p class="copyright">&copy; 2025 AgriAI. All Rights Reserved.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
